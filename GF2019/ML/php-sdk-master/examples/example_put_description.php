@@ -32,7 +32,7 @@ if($_GET['code']) {
 
 	$body = array('plain_text' => 'Adding new description <strong>html</strong>');
 
-	$response = $meli->put('/items/MLB12343412/descriptions', $body, $params);
+	$response = $meli->put('/items/MLU12343412/descriptions', $body, $params);
 	
 	print_r($response);
 } else {
