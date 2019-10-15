@@ -9,12 +9,12 @@ $appId = ('4920533050006005');
 $secretKey = ('CCwwmgUYx7ww9O7i4nxUV7Qm0h8pJafO');
 
 /* The Redirect url */
-$redirectURI = ('https://agogf.herokuapp.com');
+$redirectURI = ('https://gf.uy/ML/php-sdk-master/examples');;//('https://agogf.herokuapp.com');
 
 /* The site id of the country where your application will work.
 If you don't know your site_id go to our sites resources: https://api.mercadolibre.com/sites  */
-$siteId = 'MLB';
-
+$siteId = 'MLU';
+ 
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
