@@ -36,5 +36,5 @@ if($_GET['code']) {
 	
 	print_r($response);
 } else {
-	echo '<a href="' . $meli->getAuthUrl($redirectURI, Meli::$AUTH_URL['MLB']) . '">Login using MercadoLibre oAuth 2.0</a>';
+	echo '<a href="' . $meli->getAuthUrl($redirectURI, Meli::$AUTH_URL['MLU']) . '">Login using MercadoLibre oAuth 2.0</a>';
 }
